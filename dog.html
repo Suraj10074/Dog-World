@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="dog.css">
+</head> 
+<body class="imageBody">
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-10 offset-md-1">
+          <h1 class="text-center font-weight-bold text-danger display-1 display-3">Dog World!</h1>
+          <p id="dogInfo" class="text-danger"></p>
+          <h2 class="text-danger display-8">Get random images</h2>
+          <div class="alert alert-danger" role="alert"></div>
+          <div id="randomImageContainer"></div>
+          <p class="dogInfo h5 font-weight-bold text-danger">Random image of a...</p>
+          <button class="btn btn-dark random">Random Doggo!</button>
+        </div>    
+      </div>
+    </div>
+  
+    
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-10 offset-md-1">
+          <h2 class="font-weight-bold text-danger"> Select from a dropdown</h2>
+          <div class="form-group">
+            <select name="doggosDropdown" id="doggoDropDown" class="form-control btn btn-danger"></select>
+          </div>
+          <div id="listImageContainer"></div>
+          <button class="btn btn-dark list">More from this breed please!</button>
+        </div>
+      </div>
+   </div><!--end container-->
+  </div><!--end container fluid-->
+  
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-10 offset-md-1">
+        <h1 class="font-weight-bold text-danger">Create an image grid</h1>        
+          <div class="card-deck mb-3 text-center"> </div>
+          <button class="btn btn-dark grid ">Refresh Grid</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="dog.js"></script>
+
+  </body>
+<!--   <span ng-show="isSpinning"><i class="fa fa-spinner fa-spin fa-3x fa-fw"></i></span> -->
+</html>
